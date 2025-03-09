@@ -74,4 +74,143 @@ body {
 
 .container {
     margin: 0 3.2rem 8.0rem;
+    border: 2px solid red;
+    width: 1216px;
+    display: grid;
+    gap: 8rem;
+    grid-template-areas: 
+    "div div div"
+    "section section section";
+}
+
+.destaques {
+    width: 1216px;
+    height: 416px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.6rem;
+}
+
+.container h2 {
+    border-radius: .4rem;
+    padding: .4rem .8rem;
+    background-color: var(--brand-color-dark);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    letter-spacing: 4%;
+    font-weight: 500;
+    color: var(--text-color-primary);
+    text-transform: uppercase;
+}
+
+.noticia-1 {
+    position: relative;
+}
+
+.noticia-1 h2 {
+    position: absolute;
+    top: 200px;
+}
+
+.noticia-1 p {
+    position: absolute;
+    top: 250px;
+}
+
+.noticias {
+    width: 592px;
+    height: 416px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.noticia-2 {
+    position: relative;
+}
+
+.noticia-2 h2 {
+    position: absolute;
+    left: 12px;
+    bottom: 100px;
+}
+
+.noticia-2 p {
+    position: absolute;
+    left: 12px;
+    top: 128px;
+    color: var(--text-color-primary);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    line-height: 140%;
+}
+
+.noticia-3 {
+    position: relative;
+}
+
+.noticia-3 h2 {
+    position: absolute;
+    left: 12px;
+    bottom: 100px;
+}
+
+.noticia-3 p {
+    position: absolute;
+    left: 12px;
+    top: 128px;
+    color: var(--text-color-primary);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    line-height: 140%;
+}
+
+.noticia-4 {
+    position: relative;
+}
+
+.noticia-4 h2 {
+    position: absolute;
+    left: 12px;
+    bottom: 100px;
+}
+
+.noticia-4 p {
+    position: absolute;
+    left: 12px;
+    top: 128px;
+    color: var(--text-color-primary);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    line-height: 140%;
+}
+
+.noticia-5 {
+    position: relative;
+}
+
+.noticia-5 h3 {
+    position: absolute;
+    left: 12px;
+    bottom: 100px;
+}
+
+.noticia-5 p {
+    position: absolute;
+    left: 12px;
+    top: 128px;
+    color: var(--text-color-primary);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    line-height: 140%;
+}
+
+.destaques {
+    grid-area: div;
+
+}
+
+section {
+    grid-area: section;
 }
